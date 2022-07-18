@@ -95,7 +95,7 @@ body {
   background-position: center;
 }
 
-#about:after {
+#about::after {
   position: absolute;
   content: ' ';
   top: 0;
@@ -460,6 +460,7 @@ body {
   #footer .container {
     padding: 2px !important;
   }
+
   #about-mobile {
     width: 100%;
     height: 80vh;
@@ -471,7 +472,7 @@ body {
     background-position: center;
   }
 
-  #about-mobile:after {
+  #about-mobile::after {
     position: absolute;
     content: ' ';
     top: 0;
